@@ -13,16 +13,16 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto navbar-nav-center">
         <li class="nav-item">
-          <a class="nav-link" href="#">تواصل معنا</a>
+          <a class="nav-link" href="#ContactUs">تواصل معنا</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">خدماتنا</a>
+          <a class="nav-link" href="#Services">خدماتنا</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">من نحن</a>
+          <a class="nav-link" href="#AboutUs">من نحن</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">الرئيسية</a>
+          <a class="nav-link" href="#HomePage">الرئيسية</a>
         </li>
         
       </ul>

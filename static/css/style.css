@@ -3,27 +3,12 @@ body {
 }
 
 @font-face {
-  font-family: 'Al Qabas Bold';
-  src: url('/Fonts/AlQabas-Bold.woff2') format('woff2'),
-       url('/Fonts/AlQabas-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'AlQabasRegular';
+  src: url('~/static/fonts/AlQabasRegular.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Al Qabas Light';
-  src: url('/Fonts/AlQabas-Light.woff2') format('woff2'),
-       url('/Fonts/AlQabas-Light.woff') format('woff');
-  font-weight: lighter; /* You can adjust this if needed */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Al Qabas Regular';
-  src: url('/Fonts/AlQabas-Regular.woff2') format('woff2'),
-       url('/Fonts/AlQabas-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+.alqabas {
+  font-family: "AlQabasRegular" !important;
 }
 
 
@@ -85,6 +70,18 @@ body {
         font-size: 14px; /* Adjust the font size as needed */
     }
 }
+
+.carousel-inner img {
+  height: 500px; /* You can adjust this value to your desired height */
+  object-fit: cover; /* This property ensures the image maintains its aspect ratio while covering the designated height */
+}
+@media (max-width: 767px) {
+  .carousel-inner img {
+    height: 250px; /* Adjust this value for smaller screens */
+  }
+}
+
+
 
 
 

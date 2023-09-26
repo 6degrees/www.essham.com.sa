@@ -16,9 +16,9 @@
             <!-- Column 2 -->
             <div class="col-md-4">
                <div class="d-flex flex-column align-items-end h-100">
-                   <p class="mb-3 px-3 py-3">من نحن</p>
-                   <p class="mb-3 px-3 py-3">خدماتنا</p>
-                   <p class="mb-3 px-3 py-3">تواصل معنا</p>
+                   <a href="#AboutUs" class="mb-3 px-3 py-3 text-decoration-none text-white">من نحن</a>
+                   <a href="#Services" class="mb-3 px-3 py-3 text-decoration-none text-white">خدماتنا</a>
+                   <a href="#ContactUs" class="mb-3 px-3 py-3 text-decoration-none text-white">تواصل معنا</a>
                </div>
             </div>
             <!-- Column 3 -->

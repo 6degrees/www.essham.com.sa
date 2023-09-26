@@ -31,11 +31,17 @@ export default {
         src: "/js/bootstrap.bundle.min.js",
         type: "text/javascript",
       },
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css",
+      },
     ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    "~/static/css/style.css"
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -44,7 +50,9 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: [
+    '@nuxtjs/axios'
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -59,5 +67,5 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: { },
 };

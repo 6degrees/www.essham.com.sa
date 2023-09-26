@@ -1,13 +1,13 @@
 <template>
 
 
-<div class="container">
+<div class="container" id="Services">
         <div>
             <h2 class="text-center py-5"><a class="link-offset-3">خدماتنا</a></h2>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <div class="card py-4 my-5 border-2">
+            <div class="col-md-6 d-flex">
+                <div class="card py-4 my-5 border-2 flex-fill rounded-1">
                     <div class="card-body text-center">
                         <img src="/images/icon1.png" class="icon-img" alt="">
                         <h3 class="card-title mt-5">خدمات اضافية</h3>
@@ -15,8 +15,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card py-4 my-5 border-2">
+            <div class="col-md-6 d-flex">
+                <div class="card py-4 my-5 border-2 flex-fill rounded-1">
                     <div class="card-body text-center">
                         <img src="/images/icon2.png" class="icon-img" alt="">
                         <h3 class="card-title mt-5">خدمات الإدارة والدعم</h3>

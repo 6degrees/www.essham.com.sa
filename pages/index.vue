@@ -1,15 +1,11 @@
 <template>
- 
- <div>
-<Slider />
-<AboutUs />
-<Services />
-<Partners />
-<Contact />
-
-</div>
-
-
+  <div id="HomePage" class="alqabas">
+    <Slider />
+    <AboutUs />
+    <Services />
+    <Partners />
+    <Contact />
+  </div>
 </template>
 
 <script>
@@ -22,25 +18,25 @@ import Contact from '~/components/Contact.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Slider , AboutUs , Services , Partners , Contact },
- 
+  components: { Slider, AboutUs, Services, Partners, Contact },
+
   head() {
-      return {
-        title: "Home Page",
-        meta: [
-          {
-            hid: 'description',
-            name: 'description',
-            content: 'مؤسسة إسهام تقدم حلول متكاملة لإدارة الأملاك المشتركة في المباني السكنية'
-          },
-          {
-            hid: 'Keywords',
-            name: 'Keywords',
-            content: 'مباني سكنية، إدارة مرافق سكنية، خدمات الإدارة والدعم، خدمات صيانة، خدمات نظافة'
-          }
-        ]
-      }
+    return {
+      title: "Home Page",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'مؤسسة إسهام تقدم حلول متكاملة لإدارة الأملاك المشتركة في المباني السكنية'
+        },
+        {
+          hid: 'Keywords',
+          name: 'Keywords',
+          content: 'مباني سكنية، إدارة مرافق سكنية، خدمات الإدارة والدعم، خدمات صيانة، خدمات نظافة'
+        }
+      ]
     }
- 
+  }
+
 }
 </script>

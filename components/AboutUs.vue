@@ -1,6 +1,7 @@
 <template>
 
-<section class="about-us-section">
+
+<section class="about-us-section" id="AboutUs">
     <div class="container mx-auto">
         <div class="row">
             <div class="col text-end">
