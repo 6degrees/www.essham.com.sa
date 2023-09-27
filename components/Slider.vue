@@ -6,7 +6,7 @@
           <img :src="require('~/static/images/Essham1.png')" class="d-block w-100" alt="Slider image 1">
         </div>
         <div class="carousel-item">
-          <img :src="require('~/static/images/Essham2.png')" class="d-block w-100" alt="Slider image 2">
+          <img :src="require('~/static/images/essham2.png')" class="d-block w-100" alt="Slider image 2">
         </div>
         <div class="carousel-item">
           <img :src="require('~/static/images/Essham3.png')" class="d-block w-100" alt="Slider image 3">
