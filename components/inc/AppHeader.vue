@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg shadow" :class="navbarClass" id="navbarTag">
       <div class="container">
         <a class="navbar-brand" href="/#homepage">
-          <img src="/images/EsshamLogo.png" class="logo-img" alt="Eshaam Logo">
+          <img src="~/static/images/EsshamLogo.png" class="logo-img" alt="Eshaam Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
