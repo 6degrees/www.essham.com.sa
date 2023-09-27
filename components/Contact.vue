@@ -1,6 +1,6 @@
 <template>
     <div class="contact-us-section py-5" id="ContactUs">
-        <form action="https://formsubmit.co/essham_1@outlook.com" method="post">
+        <form action="https://formsubmit.co/19185b5c38db45646e650fdc3d5efc93" method="post">
             <input type="hidden" name="_next" value="http://localhost:3000/submit">
             <div class="container container-contact py-5">
                 <div>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-md-12 mb-3">
                         <div class="form-group">
-                            <select class="form-select text-end" aria-label="Default select example">
+                            <select class="form-select text-end" aria-label="Default select example" name="selected_service">
                                  <option selected>الخدمة</option>
                                  <option value="support_and_administrative">خدمات الإدارة والدعم</option>
                                  <option value="addtional_services">خدمات اضافية</option>
