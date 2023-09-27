@@ -3,13 +3,13 @@
     <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleRide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="@/static/images/Essham1.png" class="d-block w-100" alt="Slider image 1">
+          <img :src="require('~/static/images/Essham1.png')" class="d-block w-100" alt="Slider image 1">
         </div>
         <div class="carousel-item">
-          <img src="@/static/images/Essham2.png" class="d-block w-100" alt="Slider image 2">
+          <img :src="require('~/static/images/Essham2.png')" class="d-block w-100" alt="Slider image 2">
         </div>
         <div class="carousel-item">
-          <img src="@/static/images/Essham3.png" class="d-block w-100" alt="Slider image 3">
+          <img :src="require('~/static/images/Essham3.png')" class="d-block w-100" alt="Slider image 3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
