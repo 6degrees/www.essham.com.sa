@@ -9,7 +9,6 @@
 </template>
 
 <script>
-
 import Slider from '~/components/Slider.vue'
 import AboutUs from '~/components/AboutUs.vue'
 import Services from '~/components/Services.vue'
@@ -19,7 +18,6 @@ import Contact from '~/components/Contact.vue'
 export default {
   name: 'IndexPage',
   components: { Slider, AboutUs, Services, Partners, Contact },
-
   head() {
     return {
       title: "Home Page",
@@ -37,6 +35,5 @@ export default {
       ]
     }
   }
-
 }
 </script>

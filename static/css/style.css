@@ -3,34 +3,29 @@ body {
 }
 
 @font-face {
-  font-family: 'AlQabasRegular';
-  src: url('~/static/fonts/AlQabasRegular.ttf') format('truetype');
+  font-family: "AlQabasRegular";
+  src: url("~/static/fonts/AlQabasRegular.ttf") format("truetype");
 }
 
 .alqabas {
   font-family: "AlQabasRegular" !important;
 }
 
-
-/********* Header CSS *********/
 .navbar.navbar-expand-lg {
   background-color: #f1f2f2;
 }
 
 @media (max-width: 991px) {
-    .navbar-nav-center {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
+  .navbar-nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  .navbar-nav-center .nav-item .nav-link:hover {
-    color: #ED9415;
-  }
-
-  
-/********* Slider CSS *********/
+}
+.navbar-nav-center .nav-item .nav-link:hover {
+  color: #ed9415;
+}
 
 .carousel-item:after {
   content: "";
@@ -42,87 +37,76 @@ body {
   right: 0;
   background: rgba(0, 0, 0, 0.3);
 }
+
 .carousel-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    text-align: center;
-    max-width: 90%; /* Adjust the maximum width as needed */
-    z-index: 1; /* Ensure the text is above the carousel images */
-  }
-  .btn-secondary {
-    color: white;
-    background-color: #ED9415;
-    --bs-btn-hover-bg: #DA8000; 
-  }
-  .highlight{
-    color: #ED9415;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+  max-width: 90%;
+  z-index: 1;
+}
+.btn-secondary {
+  color: white;
+  background-color: #ed9415;
+  --bs-btn-hover-bg: #da8000;
+}
+.highlight {
+  color: #ed9415;
+}
+
+@media (max-width: 768px) {
+  .carousel-text h1 {
+    font-size: 24px;
   }
 
-  @media (max-width: 768px) {
-    .carousel-text h1 {
-        font-size: 24px; /* Adjust the font size as needed */
-    }
-
-    .carousel-text h4 {
-        font-size: 14px; /* Adjust the font size as needed */
-    }
+  .carousel-text h4 {
+    font-size: 14px;
+  }
 }
 
 .carousel-inner img {
-  height: 500px; /* You can adjust this value to your desired height */
-  object-fit: cover; /* This property ensures the image maintains its aspect ratio while covering the designated height */
+  height: 500px;
+  object-fit: cover;
 }
 @media (max-width: 767px) {
   .carousel-inner img {
-    height: 250px; /* Adjust this value for smaller screens */
+    height: 250px;
   }
 }
-
-
-
-
-
-/********* About Us CSS *********/
 
 .about-us-section {
-    background-color: #E9EBEB;
-    padding: 50px 0;
+  background-color: #e9ebeb;
+  padding: 50px 0;
 }
 
-
-/********* Services CSS *********/
-
 .card {
-    background-color: #f1f2f2;
-    position: relative;
-    overflow:visible;
-  }
-  .centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #f1f2f2;
+  position: relative;
+  overflow: visible;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .link-offset-3 {
-    color:  #ED9415;;
+  color: #ed9415;
 }
 
 .icon-img {
-    position: absolute;
-    top: -45px; /* Adjust this value to control how much it protrudes */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px; /* Fixed width for the icons */
-    height: 80px; /* Fixed height for the icons */
-    z-index: 1; /* Ensure the icon is displayed above other elements */
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  z-index: 1;
 }
-
-
-/********* Partners CSS *********/
 
 .centered-img {
   display: flex;
@@ -131,40 +115,33 @@ body {
   height: 100%;
 }
 
-
-/********* Footer CSS *********/
-
 .footer {
-  background-image: url('/images/Footer.webp');
-  background-size: cover; /* Adjust as needed */
+  background-image: url("/images/Footer.webp");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  color: #fff; /* Text color for better contrast */
+  color: #fff;
 }
 
 .img-width {
- width: 20px;
+  width: 20px;
 }
 
 .bg-black {
   background-color: black;
 }
 
-/****** Contact Us CSS *******/
-
 .contact-us-section {
-  background-color: #E9EBEB;
+  background-color: #e9ebeb;
 }
 
 .container-contact {
-  background-color: #FFFFFF; /* Container background color */
-
+  background-color: #ffffff;
 }
 
 .container-contact {
-  max-width: 900px; /* Set your desired maximum width */
-  margin: 0 auto; /* Center the container horizontally */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
-  padding: 20px; /* Add some padding for better spacing */
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
-

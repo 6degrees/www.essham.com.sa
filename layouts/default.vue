@@ -2,7 +2,7 @@
   <div>
     <AppHeader />
     <Nuxt />
-    <a style="color: inherit;" href="https://api.whatsapp.com/send?phone=+966541770361text=ارغب في الاستفسار"
+    <a style="color: inherit;" href="https://api.whatsapp.com/send?phone=+966548064886text=ارغب في الاستفسار"
       class="layer_999 float d-flex align-items-center justify-content-center" target="_blank">
       <i class="bi text-white bi-whatsapp my-float"></i>
     </a>
@@ -21,7 +21,6 @@ export default {
     AppFooter,
   }
 }
-
 </script>
 
 <style>

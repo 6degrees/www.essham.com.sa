@@ -1,5 +1,4 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Essham",
     htmlAttrs: {
@@ -25,16 +24,16 @@ export default {
         rel: "stylesheet",
         href: "/css/style.css",
       },
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css",
+      },
     ],
     script: [
       {
         src: "/js/bootstrap.bundle.min.js",
         type: "text/javascript",
-      },
-      {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css",
-      },
+      }
     ],
   },
 
@@ -62,10 +61,9 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: "/",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: { },
+  build: {},
 };

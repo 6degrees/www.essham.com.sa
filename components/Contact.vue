@@ -1,6 +1,7 @@
 <template>
     <div class="contact-us-section py-5" id="ContactUs">
-        <form action="https://formsubmit.co/change@me.com" method="post">
+        <form action="https://formsubmit.co/essham_1@outlook.com" method="post">
+            <input type="hidden" name="_next" value="http://localhost:3000/submit">
             <div class="container container-contact py-5">
                 <div>
                     <h2 class="text-end py-3">إرسل طلبك</h2>
@@ -19,7 +20,7 @@
                     </div>
                     <div class="col-md-6 mb-3">
                         <div class="form-group">
-                            <input type="email" class="form-control text-end" id="email" name="email" placeholder="رقم الهاتف">
+                            <input type="text" class="form-control text-end" id="email" name="phone_number" placeholder="رقم الهاتف">
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
@@ -31,8 +32,8 @@
                         <div class="form-group">
                             <select class="form-select text-end" aria-label="Default select example">
                                  <option selected>الخدمة</option>
-                                 <option value="1">خدمات الإدارة والدعم</option>
-                                 <option value="2">خدمات اضافية</option>
+                                 <option value="support_and_administrative">خدمات الإدارة والدعم</option>
+                                 <option value="addtional_services">خدمات اضافية</option>
                             </select>
                         </div>
                     </div>
