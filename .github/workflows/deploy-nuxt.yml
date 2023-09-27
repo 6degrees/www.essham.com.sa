@@ -24,6 +24,8 @@ jobs:
           node-version: "16.14"
       # Install and build NuxtJs website
       - name: Build NuxtJS website
+        env: 
+          BASE_URL: "https://6degrees.github.io/www.essham.com.sa/"
         run: |
           npm install 
           npm run generate
