@@ -1,6 +1,6 @@
 <template>
     <div class="contact-us-section py-5" id="ContactUs">
-        <form action="https://formsubmit.co/19185b5c38db45646e650fdc3d5efc93" method="post">
+        <form action="https://formsubmit.co/Essham_1@outlook.com" method="post">
             <input type="hidden" name="_next" value="http://localhost:3000/submit">
             <div class="container container-contact py-5">
                 <div>
