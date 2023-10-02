@@ -24,11 +24,11 @@
                             <img :src="require('~/static/images/location.png')" alt="" class="img-fluid img-width">
                         </div>
                         <div class="d-flex align-items-center justify-content-end">
-                            <p class="mb-0 ms-2 px-3 py-3">+966 570573333</p>
+                            <p class="mb-0 ms-2 px-3 py-3">+966 548064886</p>
                             <img :src="require('~/static/images/telephone.png')" alt="" class="img-fluid img-width">
                         </div>
                         <div class="d-flex align-items-center justify-content-end">
-                            <p class="mb-0 ms-2 px-3 py-3">contact@essham.com.sa</p>
+                            <p class="mb-0 ms-2 px-3 py-3">Essham_1@outlook.com</p>
                             <img :src="require('~/static/images/envelope.png')" alt="" class="img-fluid img-width">
                         </div>
                     </div>
