@@ -20,7 +20,7 @@ export default {
   components: { Slider, AboutUs, Services, Partners, Contact },
   head() {
     return {
-      title: "Home Page",
+      title: "مؤسسة إسهام لإدارة الأملاك",
       meta: [
         {
           hid: 'description',
