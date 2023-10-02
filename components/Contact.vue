@@ -37,9 +37,6 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-12 mb-3">
-                        <input class="form-control" type="file" id="formFile">
-                    </div>
                     <div class="col-md-12">
                         <div class="form-group">
                             <textarea class="form-control text-end" name="notes" id="notes" rows="4" placeholder="الملاحظات"></textarea>
