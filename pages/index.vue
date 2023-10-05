@@ -3,8 +3,8 @@
     <Slider />
     <AboutUs />
     <Services />
-    <Partners />
     <Contact />
+    <Partners />
   </div>
 </template>
 
