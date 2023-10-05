@@ -10,7 +10,7 @@
                 <p>تسعى مؤسسة اسهام إلى تقديم حلول متكاملة لإدارة الأملاك المشتركة في المباني السكنية وتوفير فريق متخصص من خبراء وفنيين لضمان تقديم خدمة احترافية ودعم متواصل لتلبية جميع احتياجات عملائنا وحماية ممتلكاتهم وتقديم خدمات مستدامة</p>
               </div>
               <div>
-                <a href="/images/EsshamProfile.pdf" class="btn btn-primary col-sm-3  mx-auto mb-5" type="button" target="_blank">ارسل طلبك هنا</a>
+                <a href="/images/EsshamProfile.pdf" class="btn btn-primary col-sm-3  mx-auto mb-5" type="button" target="_blank">للمزيد من المعلومات</a>
               </div>
             </div>
           </div>
