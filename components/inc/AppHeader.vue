@@ -62,9 +62,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.logo-img {
-  width: 140px;
-}
-</style>

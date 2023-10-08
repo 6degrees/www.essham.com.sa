@@ -27,6 +27,10 @@ body {
   color: #ed9415;
 }
 
+.logo-img {
+  width: 140px;
+}
+
 .carousel-item:after {
   content: "";
   display: block;
@@ -96,6 +100,12 @@ body {
 
 .link-offset-3 {
   color: #ed9415;
+}
+
+.partner-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .icon-img {

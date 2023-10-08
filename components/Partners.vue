@@ -35,12 +35,5 @@
     name: 'Partners'
   }
   </script>
-  
-  <style scoped>
-  .partner-logo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  </style>
+
   
