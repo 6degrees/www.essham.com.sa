@@ -1,7 +1,7 @@
 <template>
     <div class="container" id="Services">
         <div>
-            <h2 class="text-center py-5"><a class="link-offset-3">خدماتنا</a></h2>
+            <h2 class="text-center py-5 link-offset-3">خدماتنا</h2>
         </div>
         <div class="row">
             <div class="col-md-6 d-flex">

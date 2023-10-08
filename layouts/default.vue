@@ -3,7 +3,7 @@
     <AppHeader />
     <Nuxt />
     <a style="color: inherit;" href="https://api.whatsapp.com/send?phone=+966548064886&text=ارغب في الاستفسار"
-      class="layer_999 float d-flex align-items-center justify-content-center" target="_blank">
+      class="layer_999 float d-flex align-items-center justify-content-center" target="_blank" aria-label="WhatsApp Chat with Support">
       <i class="bi text-white bi-whatsapp my-float"></i>
     </a>
     <AppFooter />

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
       <div>
-        <h2 class="text-center py-5"><a class="link-offset-3">شركاء النجاح</a></h2>
+        <h2 class="text-center py-5 link-offset-3">شركاء النجاح</h2>
       </div>
       <div class="container text-center">
         <div class="row row-cols-2 row-cols-sm-1 row-cols-lg-4 row-cols-md-3 g-4">
