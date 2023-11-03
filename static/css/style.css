@@ -130,7 +130,7 @@ body {
   background-image: url("/images/Footer.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position:left;
   color: #fff;
 }
 
